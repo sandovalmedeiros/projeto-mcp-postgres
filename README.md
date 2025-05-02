@@ -8,7 +8,7 @@ docker-compose up -d
 ## Banco de dados:
 - Host: localhost
 - Porta: 5433
-- Banco: gisdb
-- Usuário: postgres
-- Senha: postgres
-- Schema: dados_certloc
+- Banco: seubanco
+- Usuário: seuusuario
+- Senha: senhadousuario
+- Schema: schemadobanco
