@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "postgres": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "POSTGRES_URL",
+        "mcp/postgres",
+        "postgresql://postgres:postgres@host.docker.internal:5432/gisdb?schema=dados_certloc"
+      ],
+      "env": {
+        "POSTGRES_URL": "postgresql://postgres:postgres@host.docker.internal:5432/gisdb?schema=dados_certloc"
+      }
+    }
+  }
+}
