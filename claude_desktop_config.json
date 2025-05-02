@@ -9,10 +9,10 @@
         "-e",
         "POSTGRES_URL",
         "mcp/postgres",
-        "postgresql://postgres:postgres@host.docker.internal:5432/gisdb?schema=dados_certloc"
+        "postgresql://seu_usuario:sua_senha@host.docker.internal:5432/nome_banco?schema=nome_schema"
       ],
       "env": {
-        "POSTGRES_URL": "postgresql://postgres:postgres@host.docker.internal:5432/gisdb?schema=dados_certloc"
+        "POSTGRES_URL": "postgresql://seu_usuario:sua_senha@host.docker.internal:5432/nome_banco?schema=nome_schema"
       }
     }
   }
