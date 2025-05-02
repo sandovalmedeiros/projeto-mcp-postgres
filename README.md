@@ -8,7 +8,7 @@ docker-compose up -d
 ## Banco de dados:
 - Host: localhost
 - Porta: 5433
-- Banco: seubanco
-- Usuário: seuusuario
-- Senha: senhadousuario
-- Schema: schemadobanco
+- Banco: seu_banco
+- Usuário: seu_usuario
+- Senha: senha_do_usuario
+- Schema: schema_do_banco
